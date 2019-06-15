@@ -238,17 +238,6 @@ namespace FishBot3._3._5a
 
                                     Thread.Sleep(200);
 
-                                    if (Caught == 10)
-                                    {
-                                        Log.Write("Dont worry this only happens @ 10 fish, i thought it would be a nice change", Color.Green);
-
-                                        lua.DoString("SendChatMessage(\"Tired of fishing... taking a nap for a while...\", \"EMOTE\", nil, \"General\")");
-                                        lua.DoString("DoEmote('sleep')");
-                                        Thread.Sleep(10000);
-                                        lua.DoString("JumpOrAscendStart()");
-                                        Thread.Sleep(1000);
-                                    }
-
                                     break;
                                 }
                             }

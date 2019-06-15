@@ -1,0 +1,9 @@
+[06/15/2019 13:15:45] Attempting to connect to running WoW.exe process...
+[06/15/2019 13:15:45] Original EndSceneBytes = (204, 204, 204, 204, 204, 136, 228, )
+[06/15/2019 13:15:45] Connected to process with ID = 3596
+[06/15/2019 13:15:47] Zone: 
+[06/15/2019 13:15:47] Could not read bytes from 00CD87A8 [299]!
+[06/15/2019 13:15:48] System.AccessViolationException: Could not read bytes from 5FF93F50 [299]!
+   at GreyMagic.ExternalProcessReader.ReadBytes(IntPtr address, Int32 count, Boolean isRelative)
+   at GreyMagic.ExternalProcessReader.Read[T](IntPtr address, Boolean isRelative)
+   at FishBot3._3._5a.Hook.DisposeHooking()

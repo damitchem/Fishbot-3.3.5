@@ -104,7 +104,7 @@ namespace FishBot3._3._5a
                 return;
                        
             DoString(string.Format("CastSpellByName('{0}')", spell));
-            SendTextMessage("Casting: " + spell);
+            // SendTextMessage("Casting: " + spell);
         }
 
         public double DebuffRemainingTime(string debuffName)
